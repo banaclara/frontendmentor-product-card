@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,700;1,9..144,400;1,9..144,700&family=Montserrat:ital,wght@0,300;0,500;0,700;1,300;1,500;1,700&display=swap');
+
+:root {
+    --greenish: hsl(158, 36%, 37%);
+    --darkgreen: hsl(156, 42%, 18%);
+    --cream: hsl(30, 38%, 92%);
+    --darkblue: hsl(212, 21%, 14%);
+    --grayishblue: hsl(228, 12%, 48%);
+
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    background-color: var(--cream);
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#page {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: white;
+    max-width: 600px;
+    height: 450px;
+    border-radius: 10px;
+}
+
+.fullimg {
+    height: 450px;
+    border-radius: 10px 0 0 10px;
+}
+
+.croppedimg {
+    display: none;
+}
+
+#text {
+    padding: 10px 30px;
+}
+
+h1 {
+    font-family: 'Fraunces';
+    line-height: 1em;
+    color: var(--darkblue);
+    padding: 10px 0;
+}
+
+h3 {
+    font: normal 500 0.8em 'Montserrat';
+    letter-spacing: 0.3em;
+    color: var(--grayishblue);
+    padding: 20px 0 10px 0;
+}
+
+p {
+    font: normal 500 14px 'Montserrat';
+    line-height: 1.6em;
+    color: var(--grayishblue);
+    padding: 10px 0;
+}
+
+.price {
+    display: flex;
+    padding: 10px 0;
+    align-items: center;
+}
+
+.discount {
+    font: normal 700 2em 'Fraunces';
+    color: var(--greenish);
+}
+
+.previous {
+    text-decoration: line-through;
+    margin-left: 20px;
+}
+
+button {
+    color: white;
+    background-color: var(--greenish);
+    font: normal 700 14px 'Montserrat';
+    padding: 15px;
+    margin: 10px 0 0 0;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+button:hover {
+    cursor:pointer;
+    background-color: var(--darkgreen);
+}
+
+button svg {
+    padding-right: 5px;
+}
+
+@media (max-width: 600px) {
+    #page {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-width: 360px;
+    }
+
+    .fullimg {
+        display: none;
+    }
+
+    .croppedimg {
+        display: block;
+        width: 100%;
+        border-radius: 10px 10px 0 0;
+    }
+    
+    h3 {
+        padding: 10px 0 5px 0;
+    }
+
+    p {
+        padding: 5px 0 5px 0;
+    }
+
+    .price {
+        padding: 5px 0;
+    }
+
+    .box {
+        background-color: white;
+        border-radius: 10px;
+    }
+
+    button {
+        margin: 10px 0;
+    }
+}

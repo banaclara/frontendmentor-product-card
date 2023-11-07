@@ -46,7 +46,7 @@ Users should be able to:
 ### Useful resources
 
 - [CSS Grid tutorial](https://www.youtube.com/watch?v=EiNiSFIPIQE&t=459s&pp=ygUIY3NzIGdyaWQ%3D)
-- [Flexbox tutorial](https://www.youtube.com/watch?v=phWxA89Dy94&t=22s&pp=ygUIY3NzIGdyaWQ%3D) - This video helped me understand Flex more clearly.
+- [Flexbox tutorial](https://www.youtube.com/watch?v=phWxA89Dy94&t=22s&pp=ygUIY3NzIGdyaWQ%3D)
 
 ## Author
 
