@@ -43,33 +43,33 @@ main {
 }
 
 #text {
-    padding: 10px 30px;
+    padding: 10px 32px;
 }
 
 h1 {
     font-family: 'Fraunces';
     line-height: 1em;
     color: var(--darkblue);
-    padding: 10px 0;
+    padding: 11px 0;
 }
 
 h3 {
-    font: normal 500 0.8em 'Montserrat';
-    letter-spacing: 0.3em;
+    font: normal 500 0.78em 'Montserrat';
+    letter-spacing: 0.37em;
     color: var(--grayishblue);
-    padding: 20px 0 10px 0;
+    padding: 22px 0 10px 0;
 }
 
 p {
     font: normal 500 14px 'Montserrat';
-    line-height: 1.6em;
+    line-height: 1.64em;
     color: var(--grayishblue);
-    padding: 10px 0;
+    padding: 13px 0 7px;
 }
 
 .price {
     display: flex;
-    padding: 10px 0;
+    padding: 5px 0 10px;
     align-items: center;
 }
 
@@ -81,17 +81,20 @@ p {
 .previous {
     text-decoration: line-through;
     margin-left: 20px;
+    font-size: 0.8em;
 }
 
 button {
+    display: flex;
+    justify-content: center;
     color: white;
     background-color: var(--greenish);
     font: normal 700 14px 'Montserrat';
-    padding: 15px;
-    margin: 10px 0 0 0;
+    padding: 15.5px;
+    margin: 9px 0 0;
     width: 100%;
     border: none;
-    border-radius: 10px;
+    border-radius: 8px;
     transition: 0.3s;
 }
 
@@ -101,7 +104,7 @@ button:hover {
 }
 
 button svg {
-    padding-right: 5px;
+    padding-right: 11px;
 }
 
 @media (max-width: 600px) {
