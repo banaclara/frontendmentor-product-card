@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Live](https://banaclara.github.io/frontendmentor-product-card/)
+- Live preview: [My solution](https://banaclara.github.io/frontendmentor-product-card/)
 
 ### Built with
 
